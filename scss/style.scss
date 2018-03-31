@@ -1,0 +1,83 @@
+$bgColor: #333;
+$fontColor: #fff;
+$primaryColor:#008ed6;
+$googleFont:'Merriweather', serif;
+$dark-overlay:rgba(0,0,0,0.7);
+$fontSize:30px;
+body{
+  background: $bgColor;
+  color:$fontColor;
+  font-family: $googleFont;
+
+}
+.navbar{
+  border-bottom: 3px solid $primaryColor;
+  opacity: 0.8;
+
+  
+}
+.nav-item{
+  font-size:1.1rem;
+padding-right: 20px;
+}
+/*
+.logo{
+  margin-left: 150px;
+  font-size: 25px;
+}
+.icon{
+  margin-left: 500px;
+}*/
+#home-section{
+  background-image: url("../img/social.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+
+  .home-inner{
+    padding-top: 150px;
+  }
+  .fa{
+    color:$primaryColor;
+    background: white;
+    padding: 4px;
+    border-radius:5px;
+    font-size:$fontSize;
+  }
+}
+.ob{
+
+  opacity: 0.8;
+}
+.dark-overlay{
+  background-color: $dark-overlay;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+}
+#explore-section{
+  padding-top: 30px;
+    padding-bottom: 30px;
+  text-align: center;
+  .fa{
+    color: #fff;
+    background: #333;
+    padding: 4px;
+    border-radius:5px;
+    font-size:$fontSize;
+  }
+}
+#share-head-section,#create-head-section{
+  padding-top: 30px;
+    padding-bottom: 30px;
+  text-align: center;
+  .fa{
+    color: #fff;
+    background: #333;
+    padding: 4px;
+    border-radius:5px;
+    font-size:$fontSize;
+  }
+}
